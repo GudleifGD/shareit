@@ -27,13 +27,13 @@
 
 <body>
     <header>
-            <nav class="navbar header fixed-top navbar-expand mx-auto">
-                <div class="row d-flex align-items-center">
+        <nav class="navbar header fixed-top navbar-expand mx-auto">
+            <div class="row d-flex align-items-center">
                 <div class="col-sm-12 col-md-2 col-lg-2 d-flex justify-content-center ">
                     <a href="#"><img src="img/logo.png" alt="/" class="img-fluid"></a>
                 </div>
-                <div class="col-sm-12 col-md-9 ">
-                    <ul class="nav justify-content-end">
+                <div class="col-sm-12 col-md-9 invisible" id="navbar">
+                    <ul class="nav justify-content-end " >
                         <li class="nav-item">
                             <a href="#" class="nav-link">Главная</a>
                         </li>
@@ -49,18 +49,45 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">Нуждающимся</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="btn btn-primary" role="button">Форум</a>
+                        <li class="nav-item flex-fill">
+                            <a href="#" class="btn btn-primary btn-block" role="button">Форум</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-12 col-md-2 col-lg-1 d-flex justify-content-center">
-                    <a href="#">Меню <i class="fas fa-bars"></i></a>
+                    <button onclick="btnMenu();" class="btn btn-link">Меню <i class="fas fa-bars"></i></button>
                 </div>
-            </div> 
-            </nav>
-
+            </div>
+        </nav>
     </header>
+    <section class="top-m ">
+        <div class="back-first">
+            <div class="back-head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 col-lg-5">
+                        <h1 class="title_header">ПОДЕЛИСЬ</h1>
+                        <div class="content_header">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                                viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                                ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                                Risus
+                                commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-7 d-flex justify-content-center align-items-center">
+                        <a href="#" class="play"><i class="fas fa-play fa-3x"></i></a>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+    </section>
     <footer class="footer">
 
     </footer>
