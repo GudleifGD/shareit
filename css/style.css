@@ -175,6 +175,7 @@ a:hover,
 .footer a {
   color: #fff !important;
   text-transform: uppercase;
+  font-size: 1em !important;
 }
 .container-video {
   min-height: 145px;
