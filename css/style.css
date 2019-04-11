@@ -89,3 +89,26 @@ button {
   font-size: 14pt;
   letter-spacing: -20;
 }
+.header {
+  background-color: #fff;
+  min-height: 68px ;
+  max-width: 1150px;
+}
+a {
+  font-family: 'Geometria';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12pt;
+  color: #000;
+}
+a:hover {
+  color: #7c6ba9;
+  text-decoration: none;
+}
+.nav_center {
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  height: 2000px;
+}
