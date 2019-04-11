@@ -89,6 +89,7 @@ button {
   letter-spacing: -20;
 }
 .header {
+  display: none;
   background-color: #fff;
   min-height: 68px;
   max-width: 1150px;
@@ -159,4 +160,11 @@ a:hover,
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+.b_purple {
+  background: #7b6aa8 ;
+}
+.footer a {
+  color: #fff !important;
+  text-transform: uppercase;
 }
