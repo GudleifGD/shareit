@@ -26,40 +26,37 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar header fixed-top navbar-expand mx-auto">
-            <div class="row d-flex align-items-center">
-                <div class="col-xs-12 col-md-2 col-lg-2 d-flex justify-content-center ">
-                    <a href="#"><img src="img/logo.png" alt="/" class="img-fluid"></a>
-                </div>
-                <div class="col-xs-12 col-md-9 invisible" id="navbar">
-                    <ul class="nav justify-content-end ">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Главная</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Помощь</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">О нас</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Юридическая информация</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Нуждающимся</a>
-                        </li>
-                        <li class="nav-item flex-fill">
-                            <a href="#" class="btn btn-primary btn-block" role="button">Форум</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-md-2 col-lg-1 d-flex justify-content-center">
-                    <button onclick="btnMenu();" class="btn btn-link">Меню <i class="fas fa-bars"></i></button>
-                </div>
+   
+        <nav class="navbar navbar-expand-lg header fixed-top m-auto">
+            <a href="#" class="navbar-brand"><img src="img/logo.png" alt="/" class="logo"></a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav " id="navbar">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Помощь</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Юридическая информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Нуждающимся</a>
+                    </li>
+                    <li class="nav-item flex-fill">
+                        <a href="#" class="btn btn-primary btn-block" role="button">Форум</a>
+                    </li>
+                </ul>
             </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon ">  <i class="fas fa-bars"></i></span></button>
+            
+
         </nav>
-    </header>
+    
     <section class=" back-first">
         <div class="container">
             <div class="row">
@@ -88,13 +85,24 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-md-6 container-video d-flex justify-content-around">
-                    <div class="last_news_left">
+                <div class="col-12 col-md-6 container-video">
+                    <div class="row p-0 m-0">
+                        <div class="col-12 col-md-5">
+                            <div class="last_news_left">
 
-                    </div>
-                    <div class="last_news_right">
-                        <a href="#">Актуальные новости</a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <div
+                                class="last_news_right px-4 d-flex flex-column justify-content-around align-items-start">
+                                <a href="#">Актуальные новости</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut
+                                    labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                                    commodo
+                                    viverra maecenas accumsan lacus vel facilisis. </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-4 offset-md-1 all-video">
@@ -157,14 +165,14 @@
                                     <div class="col-6">
                                         <input class="" type="checkbox" value="name_anonim" id="defaultCheck1">
                                         <label class="" for="gridCheck">
-                                                Анонимно
+                                            Анонимно
                                         </label>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-5 offset-1" >
-                            <img  class="img-fluid"alt="/" src="img/liqpay.png">
+                        <div class="col-5 offset-1">
+                            <img class="img-fluid" alt="/" src="img/liqpay.png">
                             <div class="row">
                                 <div class="col-5 pr-0 align-self-center">
                                     <img alt="/" src="img/Слой 10.png">
@@ -174,7 +182,7 @@
                                 </div>
                             </div>
                             <img alt="/" src="img/Слой 12.png">
-                        </div>    
+                        </div>
                     </div>
                 </div>
             </div>

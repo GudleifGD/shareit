@@ -51,7 +51,7 @@ h1 {
   font-weight: 800;
   font-style: normal;
   color: #000;
-  font-size: 60pt;
+  font-size: 3em;
   letter-spacing: -20;
 }
 h2 {
@@ -90,8 +90,7 @@ button {
 }
 .header {
   background-color: #fff;
-  min-height: 68px;
-  max-width: 1150px;
+  max-width: 1140px;
 }
 a,
 .btn-link {
@@ -116,6 +115,10 @@ a:hover,
 .nav_center {
   margin-left: auto;
   margin-right: auto;
+}
+.logo {
+  max-width: 180px;
+  height: auto;
 }
 .btn-primary,
 .btn-primary:hover {
@@ -182,14 +185,12 @@ a:hover,
   margin-top: 137px;
 }
 .last_news_left {
-  width: 45%;
   height: 145px;
   background-image: url(../img/videoch.png);
   background-size: cover;
   background-position: -50px center;
 }
 .last_news_right {
-  width: 50%;
   height: 145px;
   background-image: url(../img/backvideo.png);
   background-size: cover;
