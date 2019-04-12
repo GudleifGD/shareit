@@ -252,3 +252,9 @@ a:hover,
   line-height: 0.7em;
   min-height: 30px;
 }
+.expenses p {
+  margin-bottom: 0;
+}
+.archive p {
+  color: #c7c7c7;
+}
