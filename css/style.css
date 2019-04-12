@@ -218,3 +218,10 @@ a:hover,
 .all-video > a > img {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
+.donate {
+  background: #f1f1f1;
+  border-radius: 20px 0 0 0;
+}
+.dimg {
+  margin-top: 50px;
+}
