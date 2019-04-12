@@ -171,6 +171,7 @@ a:hover,
 }
 .footer {
   margin-bottom: 0 !important;
+  padding-top: 20px;
 }
 .b_purple {
   background: #7b6aa8;
@@ -240,10 +241,15 @@ a:hover,
   min-height: 570px;
   background-image: url(../img/backneed.png);
   background-repeat: no-repeat;
-  background-size: auto 500px;
+  background-size: auto 465px;
   background-position: right 95%;
 }
-@media (max-width: 530px) {
+@media screen and (max-width: 530px) {
+  .back_need {
+    background-image: none;
+  }
+}
+@media screen and (max-width: 530px) {
   .dimg {
     max-width: 300px;
   }
@@ -251,4 +257,12 @@ a:hover,
 .donaters p {
   line-height: 0.7em;
   min-height: 30px;
+}
+.net {
+  min-height: 470px;
+  background-image: url(../img/backnet.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  color: #fff;
 }

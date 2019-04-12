@@ -124,10 +124,12 @@ a:hover,
     margin-left: auto;
     margin-right: auto;
 }
+
 .logo {
     max-width: 180px;
     height: auto;
 }
+
 .btn-primary,
 .btn-primary:hover {
     background-color: #7c6ba9;
@@ -166,6 +168,7 @@ a:hover,
     left: 0px;
     top: -5px;
 }
+
 .content_header::after {
     content: url(../img/line.png);
     position: absolute;
@@ -187,7 +190,7 @@ a:hover,
 
 .footer {
     margin-bottom: 0 !important;
-
+    padding-top: 20px;
 }
 
 
@@ -203,78 +206,107 @@ a:hover,
 
 .container-video {
     min-height: 145px;
-    margin-top: 137px; 
+    margin-top: 137px;
 }
+
 .last_news_left {
-    
+
     height: 145px;
-    background-image:url(../img/videoch.png);
-    background-size:cover;
-    background-position: -50px center;  
+    background-image: url(../img/videoch.png);
+    background-size: cover;
+    background-position: -50px center;
 }
+
 .last_news_right {
-    
+
     height: 145px;
-    background-image:url(../img/backvideo.png);
-    background-size:cover;
-    background-position:center right;  
+    background-image: url(../img/backvideo.png);
+    background-size: cover;
+    background-position: center right;
 }
-.form-give{
+
+.form-give {
     background-color: #f8f8f8;
 }
+
 .last_news_right>p {
     width: 215px;
     height: 55px;
     overflow: hidden;
     font-size: 12px;
 }
-.img_pay img{
+
+.img_pay img {
     margin-right: auto !important;
 }
 
 .all-video>h4 {
     color: #fff;
 }
+
 .all-video>a {
     color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.all-video>a>img{
-    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+
+.all-video>a>img {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
-.donate{
+
+.donate {
     background: #f1f1f1;
     border-radius: 50px 0 0 0;
 }
-.dimg{
+
+.dimg {
     margin-top: 50px;
-    
+
 }
 
 .need {
     height: 250px;
-    margin-top: 170px; 
+    margin-top: 170px;
 }
+
 .need>p {
     font-size: 14px;
 }
+
 .btn-shadow {
-    box-shadow: 0 0 50px rgba(109,87,165,0.38);
+    box-shadow: 0 0 50px rgba(109, 87, 165, 0.38);
     width: 180px;
 }
 
 .back_need {
     min-height: 570px;
     background-image: url(../img/backneed.png);
-    background-repeat:no-repeat;
-    background-size: auto 500px;
-    background-position: right 95%;  
+    background-repeat: no-repeat;
+    background-size: auto 465px;
+    background-position: right 95%;
 }
-@media (max-width: 530px) {
-    .dimg{max-width: 300px;}
+
+@media screen and (max-width: 530px) {
+    .back_need {
+        background-image: none;
+    }
 }
-.donaters p{
+
+@media screen and (max-width: 530px) {
+    .dimg {
+        max-width: 300px;
+    }
+}
+
+.donaters p {
     line-height: 0.7em;
     min-height: 30px;
+}
 
+.net {
+    min-height: 470px;
+    background-image: url(../img/backnet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    .light;
 }
