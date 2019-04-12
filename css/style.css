@@ -171,6 +171,7 @@ a:hover,
 }
 .footer {
   margin-bottom: 0 !important;
+  padding-top: 20px;
 }
 .b_purple {
   background: #7b6aa8;
@@ -240,10 +241,15 @@ a:hover,
   min-height: 570px;
   background-image: url(../img/backneed.png);
   background-repeat: no-repeat;
-  background-size: auto 500px;
+  background-size: auto 465px;
   background-position: right 95%;
 }
-@media (max-width: 530px) {
+@media screen and (max-width: 830px) {
+  .back_need {
+    background-image: none;
+  }
+}
+@media screen and (max-width: 530px) {
   .dimg {
     max-width: 300px;
   }
@@ -252,9 +258,42 @@ a:hover,
   line-height: 0.7em;
   min-height: 30px;
 }
+.net {
+  min-height: 470px;
+  background-image: url(../img/backnet.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+}
+.net-item > h4,
+.net-item > p {
+  color: #fff;
+}
+.net-item > h4 {
+  margin-top: 90px;
+  margin-bottom: 65px;
+  font-size: 32px;
+  font-family: 'Geometria';
+  font-weight: 800;
+  font-style: normal;
+}
+.net-icon > a,
+.net-icon > a:target,
+.net-icon > a:hover {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+.net-icon {
+  margin-top: 130px;
+}
 .expenses p {
   margin-bottom: 0;
 }
 .archive p {
   color: #c7c7c7;
+}
+.lawyer {
+  padding-top: 40px;
+  padding-bottom: 70px;
 }
