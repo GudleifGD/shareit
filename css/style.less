@@ -184,7 +184,18 @@ a:hover,
     left: 215px;
     bottom: 5px;
 }
-
+.content_header::after {
+    content: url(../img/line.png);
+    position: absolute;
+    left: 215px;
+    bottom: 5px;
+}
+@media screen and (max-width: 530px) {
+    .content_header::after {
+        content: "";
+        
+    }
+}
 .play {
     background-color: rgba(255, 255, 255, 0.35);
     height: 140px;
