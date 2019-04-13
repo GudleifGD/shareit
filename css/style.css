@@ -218,16 +218,118 @@ a:hover,
 .all-video > a > img {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
+.donat {
+  padding-top: 50px;
+}
+.help {
+  margin-bottom: 40px;
+}
 .donate {
   background: #f1f1f1;
   border-radius: 50px 0 0 0;
 }
+@media screen and (max-width: 500px) {
+  .donate {
+    border-radius: 0 0 0 0;
+  }
+}
+.fix-p {
+  padding-left: 50px;
+}
+.fix-p > img {
+  margin-bottom: 50px;
+}
+.fix-p > h2 {
+  margin-bottom: 20px;
+}
+.fix-p > p {
+  margin-bottom: 50px;
+}
+.fix-p > div {
+  margin-bottom: 50px;
+}
 .dimg {
   margin-top: 50px;
 }
+@media screen and (max-width: 350px) {
+  .dimg {
+    width: 97%;
+  }
+}
+.form-fix {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+@media screen and (max-width: 550px) {
+  .form-fix {
+    padding-left: 0px;
+  }
+}
+.form-fix-left {
+  padding-top: 35px;
+}
+.fix-back {
+  min-height: 470px;
+  background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 13%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(left, #ffffff 0%, #ffffff 13%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 13%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+}
+.input-group > input {
+  border: none;
+  border-radius: 3px;
+}
+.gridCheck {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.gridCheck + label {
+  position: relative;
+  padding: 0 0 0 30px;
+  cursor: pointer;
+  margin: 0;
+}
+.gridCheck + label:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background: #fff;
+  border: solid 2px #7b6aa8;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+  transition: .2s;
+}
+.gridCheck + label:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: #FFF;
+  transition: .2s;
+}
+.gridCheck:checked + label:after {
+  background: #7b6aa8;
+}
+.input-group {
+  width: 260px !important;
+  margin-bottom: 10px;
+}
+.input-group-text {
+  border: none;
+}
 .need {
   height: 250px;
-  margin-top: 170px;
+  margin-top: 70px;
+}
+.min-need {
+  min-height: 470px;
 }
 .need > p {
   font-size: 14px;
@@ -236,17 +338,30 @@ a:hover,
   box-shadow: 0 0 50px rgba(109, 87, 165, 0.38);
   width: 180px;
 }
+.btn-shadow-fix {
+  box-shadow: 0 0 50px rgba(109, 87, 165, 0.38);
+  width: 100%;
+  margin-bottom: 10px;
+}
 .back_need {
-  min-height: 570px;
+  min-height: 470px;
   background-image: url(../img/backneed.png);
   background-repeat: no-repeat;
-  background-size: auto 465px;
+  background-size: contain;
   background-position: right 95%;
 }
-@media screen and (max-width: 830px) {
+@media screen and (min-width: 1700px) {
   .back_need {
-    background-image: none;
+    background-position: 65% 95%;
   }
+}
+.fix-last {
+  padding-top: 50px;
+  margin-bottom: 70px;
+}
+.fix-last-send {
+  max-height: 100px;
+  overflow: hidden;
 }
 @media screen and (max-width: 530px) {
   .dimg {
@@ -258,11 +373,17 @@ a:hover,
   min-height: 30px;
 }
 .net {
+  background: #7b6aa8;
   min-height: 470px;
   background-image: url(../img/backnet.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left center;
+  background-size: contain;
+  background-position: center center;
+}
+@media screen and (max-width: 530px) {
+  .net {
+    background-image: none;
+  }
 }
 .net-item > h4,
 .net-item > p {
@@ -289,10 +410,21 @@ a:hover,
 .expenses p {
   margin-bottom: 0;
 }
+.expenses-fix {
+  padding: 47px 50px 100px 30px  ;
+  margin-bottom: 50px;
+}
 .archive p {
   color: #c7c7c7;
 }
 .lawyer {
   padding-top: 40px;
   padding-bottom: 70px;
+}
+.help-dif {
+  min-height: 170px;
+}
+.fix-help {
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
