@@ -207,6 +207,11 @@ a:hover,
     .light;
 }
 
+@media screen and (max-width: 530px) {
+    .play {
+      margin-top: 55px;
+    }
+}
 
 .footer {
     margin-bottom: 0 !important;
@@ -499,6 +504,14 @@ a:hover,
     margin-top: 130px;
 }
 
+@media screen and (max-width: 780px) {
+    .net-icon>a {
+        width: 33%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .expenses p {
     margin-bottom: 0;
 }
@@ -522,3 +535,18 @@ a:hover,
     margin-bottom: 50px;
 }
 
+#toTop {
+    width:100px;
+    border:1px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family:verdana;
+    font-size:11px;
+   }
